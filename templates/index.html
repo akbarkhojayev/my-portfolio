@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">Akbarkhojayev</div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link active">Asosiy</a>
+            <a href="#skills" class="nav-link">Ko'nikmalar</a>
+            <a href="#projects" class="nav-link">Loyihalar</a>
+            <a href="#about" class="nav-link">Men Haqimda</a>
+            <a href="#contact" class="nav-link">Bog'lanish</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">Backend Developer</div>
+                <h1 class="glitch" data-text="Python Developer">Python Developer</h1>
+                <p class="hero-description">
+                    <span class="typing-text"></span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="primary-btn">
+                        <span>Bog'lanish</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/akbarkhojayev" class="social-btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://t.me/akbarkhojayev" class="social-btn">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-btn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-editor">
+                    <div class="editor-header">
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="editor-title">developer.py</div>
+                    </div>
+                    <div class="editor-content">
+                        <pre><code>
+class Developer:
+    def __init__(self):
+        self.name = "Abboskhoja"
+        self.role = "Backend Developer"
+        self.skills = [
+            "Python", "Django",
+            "CyberSecurity", "Pentestor"
+
+        ]
+
+    def get_experience(self):
+        return "1+ years"
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>Ko'nikmalar</h2>
+            <p>Mening texnik bilimlarim</p>
+        </div>
+        <div class="skills-grid">
+            <!-- Cybersecurity Skills -->
+            <div class="skill-card">
+                <i class="skill-icon fab fa-linux"></i>
+                <h3>Cybersecurity</h3>
+                <ul class="skill-list">
+                    <li><i class="fas fa-shield-alt"></i> Kali Linux</li>
+                    <li><i class="fas fa-bug"></i> Penetration Testing</li>
+                    <li><i class="fas fa-lock"></i> Network Security</li>
+                    <li><i class="fas fa-code"></i> Security Automation</li>
+                </ul>
+            </div>
+
+            <!-- Backend Development -->
+            <div class="skill-card">
+                <i class="skill-icon fas fa-server"></i>
+                <h3>Backend Development</h3>
+                <ul class="skill-list">
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fas fa-database"></i> SQL</li>
+                    <li><i class="fas fa-network-wired"></i> API Development</li>
+                </ul>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="skill-card">
+                <i class="skill-icon fas fa-tools"></i>
+                <h3>Tools & Technologies</h3>
+                <ul class="skill-list">
+                    <li><i class="fab fa-git-alt"></i> Git</li>
+                    <li><i class="fab fa-docker"></i> Docker</li>
+                    <li><i class="fas fa-terminal"></i> Command Line</li>
+                    <li><i class="fas fa-cloud"></i> Cloud Services</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>Loyihalar</h2>
+            <p>Mening oxirgi ishlarim</p>
+        </div>
+        <div class="projects-grid">
+            <!-- Cybersecurity Project -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>Telegram bot</span>
+                        <span>Instagram Loader</span>
+                    </div>
+                    <h3>Instagram Downloader Bot</h3>
+                    <p>Bu bot orqali Instagramdan videolarni havola orqali yuklab olishingiz mumkin.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="https://t.me/insta_dowbot" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-preview">
+                    <img src="../media/insta.jpg" alt="Kali Linux Project">
+                </div>
+            </div>
+
+            <!-- Python Security Tool -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Anonim Bot</span>
+                    </div>
+                    <h3>Telegram Anonim Chat bot</h3>
+                    <p>Bu telegram bot orqali siz o'z kanalingiz obunachilari bilan anonim suxbat qura olasiz.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="https://t.me/anonim_abzbot" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-preview">
+                    <img src="../media/anonim.jpg" alt="Python Security Tool">
+                </div>
+            </div>
+
+            <!-- Web Security Project -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>Web Security</span>
+                        <span>OWASP</span>
+                    </div>
+                    <h3>Web Application Firewall</h3>
+                    <p>Developed a custom WAF solution to protect against common web vulnerabilities. Implements OWASP security guidelines.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-preview">
+                    <img src="../media/project1.jpg" alt="Web Security Project">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>Men Haqimda</h2>
+            <p>Mening yo'lim</p>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="../media/profile.jpg" alt="Profile Photo">
+                <div class="about-shape"></div>
+            </div>
+            <div class="about-info">
+                <p class="about-text">
+                    Men Akbarxo'jayev Abbosxo'ja
+                    Python backend dasturlash va kiberhavfsizlik sohasida qiziqaman.
+                    Yangi texnologiyalarni o'rganish va amaliyotda qo'llash menga zavq bag'ishlaydi.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Yillik tajriba</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Loyihalar</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Mijozlar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Bog'lanish</h2>
+            <p>Men bilan bog'laning</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <a href="mailto:akbarkhojayev@gmail.com">akbarkhojayev@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Telegram</h3>
+                    <a href="https://t.me/akbarxojayevv">@akbarxojayevv</a>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <a href="#">/in/akbarkhojayev</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 akbarkhojayev. o'zgarman noyobsan.</p>
+            <div class="footer-links">
+                <a href="#home">Yuqoriga</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
